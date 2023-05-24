@@ -17,8 +17,8 @@ This project aims to create a pinterest data pipeline using AWS cloud services. 
 ## Step - 1 : Data Exploration
 Basic exploration of data, to identify the number of tables present, the structure in which it is stored and the different information/columns it contains. This is mainly done in order to get familiarised with the data, and more importantly the json payload to be sent must be structed in the form of column_name:value.
 
+
 # Batch Processing Steps
-# ----------------------------
 
 ## Step - 2 : Setting up EC2 instance
 Before setting up an EC2 instance, we first need to create a MSK cluster as we will require the Bootstrap server string and the Apache Zookeeper connection string. Create an EC2 instance in AWS console and make sure to select the default security group witht he cluster VPC, and add "All Traffic" Type in the inbound rules.
@@ -64,7 +64,6 @@ To automate this process AWS MWAA (managed Worrkflows for Apache Airflow) can be
 
 
 # Stream Processing
-# -------------------------
 
 
 ## Step 6 : AWS Kinesis
