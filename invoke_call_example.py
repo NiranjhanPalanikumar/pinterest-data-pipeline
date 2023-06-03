@@ -1,7 +1,7 @@
 import requests
 import json
 
-example_df = {"index": 1, "name": "Maya", "age": 25, "role": "engineer"}
+example_df = {"index": 1, "name": "ABC", "age": 25, "role": "engineer"}
 
 invoke_url = "https://YourAPIInvokeURL/YourDeploymentStage/topics/YourTopicName"
 #To send JSON messages you need to follow this structure
